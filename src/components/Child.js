@@ -3,7 +3,7 @@ import React from "react";
 const Child = ({setStatus})=>{
     
     return(
-        <div>
+        <form>
             <label>Username:</label>
             <input type="text" ></input>
             <br></br>
@@ -13,7 +13,7 @@ const Child = ({setStatus})=>{
             <br></br>
             <br></br>
             <button onClick={()=>{setStatus()}}>Login</button>
-        </div>
+        </form>
     )
 }
 
